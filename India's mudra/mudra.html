@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>INDIA'S MUDRA</title>
+	<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		background-color: none;
+
+	}
+	@media (max-width:850px){
+	.home{
+		background-position: 50%;
+	}
+}
+@media (max-width:450px){
+	.home .mudras b{
+		font-size: 25px;
+	}
+	.home .mudras p{
+		font-size: 20px;
+	}
+	.home .mudras p{
+		font-size: 35px;
+	}
+}
+	#heading{
+		text-align: center;
+		text-shadow: 2px 5px 10px black;
+		font-family: serif,sans-serif,cursive;
+		font-size: 30px;
+		font-weight: 500;
+		color: white;
+
+	}
+	#navbar{
+		background: white;
+
+	}
+	#logo{
+		font-size: 36px;
+		font-weight: 700;
+		color: black;
+		text-shadow: 0px 1px 1px black;
+		margin-bottom: 5px;
+
+	}
+	#logo-span{
+		color: skyblue;
+	}
+	.navbar-toggler span{
+		color: skyblue;
+	}
+	.navbar-nav{
+		margin-left: 20px;
+	}
+	.nav-item .nav-link{
+		font-size: 16px;
+		font-weight: 550;
+		color: black;
+		letter-spacing: 1px;
+		border-radius: 3px;
+		transition: 0.5s ease;
+	}
+	.nav-item .nav-link:hover{
+		background: skyblue;
+		color: white;
+	}
+	#navbar form button{
+		background: skyblue;
+		color: white;
+		border: none;
+	}/*navbar end*/
+	/*home page start*/
+	.home{
+		width: 100%;
+		height: 90vh;
+		background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(https://i0.wp.com/detechter.com/wp-content/uploads/2017/03/Nataraja.jpg?resize=662%2C401);
+
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	button{
+		color: white;
+
+	}
+	table,tr,td{
+		text-align: center;
+		color: white;
+		font-weight: 300;
+		font-size: 22px;
+		font-family: serif,cursive,sans-serif,fantasy;
+		border: 1px solid white;
+		border-radius: 10px;
+		box-shadow: 10px 10px 30px 5px skyblue;
+		
+	}
+	tr,td:hover{
+		
+		 transition-property:padding: 15px;
+		 font-size: 30px; 
+
+	}
+	a{
+		text-decoration: none;
+		color: white;
+	}
+	a:hover{
+		color:dodgerblue;
+		text-shadow: 2px 4px 4px darkblue;
+	}
+	#mudras{
+		color: white;
+	
+	}
+	
+	#mudras h1{
+		color: skyblue;
+		text-align: center;
+		font-size: 2rem;
+		font-weight: 500;
+		font-family: serif,sans-serif,cursive,fantasy;
+		text-shadow: 2px 2px 10px skyblue;
+	}
+	#mudras b{
+		font-size: 1.5rem;
+		font-weight: 250;
+		font-family: serif,sans-serif,cursive,fantasy;
+		text-shadow: 2px 5px 8px skyblue;
+		color: lightskyblue;
+	}
+	#mudras p{
+		font-weight: 500;
+		font-size: 1.2rem;
+	}
+	#mudras img{
+		align-items: center;
+		justify-items: center;
+	}
+	img{
+		display: ruby-base;
+
+	}
+
+</style>
+</head>
+<body class="home">
+	<nav class="navbar navbar-expand-lg "id="navbar">
+  <div class="container-fluid"> 
+    <a class="navbar-brand" href="index.html" id="logo"><span id="logo-span">M</span>udra</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="fa-solid fa-bars"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="bootstrap.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Mudras">Mudras</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tableb.html">Gallary</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about">About</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+	<!--mudra section start-->
+	<div class="container mt-3">
+	<h1 id="heading">India's Mudras</h1>
+</div>
+	<div class="container mt-5 md-3">
+	<table class="table">
+		
+		<tbody>
+			<tr>
+			<td>S_NO</td>
+				<td>Name Of The Mudra</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>
+				<div class="dropdown">
+        <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" style="background: none;border: none;color: white;font-size: 22px;" >Abhaya</button>
+        <div class="dropdown-menu" >
+        <ul class="dropdown-item" style="background: skyblue;"><li><a style="text-decoration: none; color: black;" href=#abhaya1>Abhaya 1</a></li>
+        <li><a style="text-decoration: none; color: black;" href=#abhaya2>Abhaya 2</li></a></li>
+        <li><a style="text-decoration: none; color: black;" href="#abhaya3">Abhaya Hrdaya Mudra</li></a></li></ul></div>
+				</td>
+			</tr>
+			<tr>
+			<td>2</td>
+				<td><a href="#Adhomukha"> Adhomukha Mudra</a></td>
+			</tr>
+
+			<tr>
+			<td>3</td>
+				<td><a href="#Agni"> Agni Mudra</a></td>
+			</tr>
+
+			<tr>
+			<td>4</td>
+				<td><a href="#Ajna"> Ajna Chakra Mudra</a></td>
+			</tr>
+
+			<tr>
+			<td>5</td>
+				<td><a href="#Anahata Chakra"> Anahata Chakra Mudra</a></td>
+			</tr>
+
+			<tr>
+			<td>6</td>
+				<td><a href="#Angaraka">Angaraka Mudra</a></td>
+			</tr>
+
+			<tr>
+			<td>7</td>
+				<td><a href=""> Anjali Mudra</a></td>
+			</tr>
+
+			<tr>
+			<td>8</td>
+				<td><a href="">Apana Mudra</a></td>
+			</tr>
+
+			<tr>
+			<td>9</td>
+				<td><a href="">Arala Mudra</a></td>
+			</tr>
+
+			<tr>
+			<td>10</td>
+				<td><a href="">Archaka Mudra</a></td>
+			</tr>
+
+			<tr>
+			<td>11</td>
+				<td>Ardhachandra Mudra</td>
+			</tr>
+
+			<tr>
+			<td>12</td>
+				<td>Ardhamukula Mudra </td>
+			</tr>
+
+			<tr>
+			<td>13</td>
+				<td>Ardhapataka Mudra</td>
+			</tr>
+
+			<tr>
+			<td>14</td>
+				<td>Ashvaratna Mudra</td>
+			</tr>
+
+			<tr>
+			<td>15</td>
+				<td>Avahita Mudr</td>
+			</tr>
+<!--B - mudras-->
+			<tr>
+			<td>16</td>
+				<td>Badha Mudra </td>
+			</tr>
+
+			<tr>
+			<td>17</td>
+				<td>Baka Mudra</td>
+			</tr>
+
+			<tr>
+			<td>18</td>
+				<td>Bam Mudra</td>
+			</tr>
+
+			<tr>
+			<td>19</td>
+				<td> Bhairava Mudra</td>
+			</tr>
+
+			<tr>
+			<td>20</td>
+				<td>Bhartri Mudra</td>
+			</tr>
+
+			<tr>
+			<td>21</td>
+				<td>Bhramara Mudra</td>
+			</tr>
+
+			<tr>
+			<td>22</td>
+				<td>Budha Mudra</td>
+			</tr>
+<!--c-mudras-->
+			<tr>
+			<td>23</td>
+				<td> Chakra Mudra I </td>
+			</tr>
+
+			<tr>
+			<td>24</td>
+				<td>Chakra Mudra II</td>
+			</tr>
+
+			<tr>
+			<td>25</td>
+				<td>Chandrakala Mudra</td>
+			</tr>
+
+			<tr>
+			<td>26</td>
+				<td>Chaturmukha Mudra</td>
+			</tr>
+			<tr>
+			<td>27</td>
+				<td>Chin Mudra</td>
+			</tr>
+			<tr>
+			<td>28</td>
+				<td>Chonmukha Mukha Mudra</td>
+			</tr>
+			<tr>
+				<!--D-mudras-->
+			<td>29</td>
+				<td>Dharmachakra Mudra</td>
+			</tr>
+			<tr>
+			<td>30</td>
+				<td>Dhyana Mudra</td>
+			</tr>
+			<tr>
+			<td>31</td>
+				<td>Dvimukha Mudra</td>
+			</tr>
+			<!--G-mudras-->
+			<tr>
+			<td>32</td>
+				<td>Gada Mudra</td>
+			</tr>
+			<tr>
+			<td>33</td>
+				<td>Ganesha Mudra</td>
+			</tr>
+			<tr>
+			<td>34</td>
+				<td>Garuda Mudra I</td>
+			</tr>
+			<tr>
+			<td>35</td>
+				<td>
+				Garuda Mudra II</td>
+			</tr>
+			<tr>
+			<td>36</td>
+				<td>Granthita Mudra</td>
+			</tr>
+			<!--H-mudras-->
+			<tr>
+			<td>37</td>
+				<td>Hamsi Mudra</td>
+			</tr>
+			<tr>
+			<td>38</td>
+				<td>Hridaya Mudra</td>
+			</tr>
+			<!--J mudras -->
+			<tr>
+			<td>39</td>
+				<td>Jnana Mudra</td>
+			</tr>
+			<!--k mudra-->
+			<tr>
+			<td>40</td>
+				<td>Kaleshvara Mudra</td>
+			</tr><tr>
+			<td>41</td>
+				<td>Kamajayi Mudra</td>
+			</tr><tr>
+			<td>42</td>
+				<td>Kangula Mudra</td>
+			</tr><tr>
+			<td>43</td>
+				<td>Kapittha Mudra </td>
+			</tr><tr>
+			<td>44</td>
+				<td>Karana Mudra</td>
+			</tr><tr>
+			<td>45</td>
+				<td>Karkatika Mudra</td>
+			</tr><tr>
+			<td>46</td>
+				<td>Kashyapa Mudra</td>
+			</tr><tr>
+			<td>47</td>
+				<td>Kilaka Mudra </td>
+			</tr><tr>
+			<td>48</td>
+				<td>Kubera Mudra  </td>
+			</tr><tr>
+			<td>49</td>
+				<td>Kurma Mudra</td>
+			</tr>
+			<!--l mudras-->
+			<tr>
+			<td>50</td>
+				<td>Linga Mudra</td>
+			</tr>
+			<!--m mudras-->
+			<tr>
+			<td>51</td>
+				<td>Mahakranta Mudra</td>
+			</tr>
+			<tr>
+			<td>52</td>
+				<td>Mahashirsha Mudra</td>
+			</tr>
+			<tr>
+			<td>53</td>
+				<td>Mahatrika Mudra</td>
+			</tr>
+			<tr>
+			<td>54</td>
+				<td>Makara Mudra</td>
+			</tr>
+			<tr>
+			<td>55</td>
+				<td>Mandala Mudra</td>
+			</tr>
+			<tr>
+			<td>56</td>
+				<td>Manipura Chakra Mudra</td>
+			</tr>
+			<tr>
+			<td>57</td>
+				<td>Matangi Mudra</td>
+			</tr>
+			<tr>
+			<td>58</td>
+				<td>Matsya Mudra</td>
+			</tr>
+			<tr>
+			<td>59</td>
+				<td>Mritsamjivani Mudra</td>
+			</tr>
+			<tr>
+			<td>60</td>
+				<td>Mudgara Mudra</td>
+			</tr>
+			<tr>
+			<td>61</td>
+				<td>Muladhara Mudra</td>
+			</tr>
+			<!--p mudras-->
+			<tr>
+			<td>62</td>
+				<td>Padma Mudra</td>
+			</tr>
+			<tr>
+			<td>63</td>
+				<td>Pallava Mudra</td>
+			</tr>
+			<tr>
+			<td>64</td>
+				<td>Panchamukha Mudra</td>
+			</tr>
+			
+			<tr>
+			<td>65</td>
+				<td>Phupphusamocana Mudra</td>
+			</tr>
+			
+			<tr>
+			<td>66</td>
+				<td>Pralamba Mudra</td>
+			</tr>
+			<tr>
+			<td>67</td>
+				<td>Prana Mudra</td>
+			</tr>
+<tr>
+			<td>68</td>
+				<td>Prithivi Mudra</td>
+			</tr>
+			<!--r mudras-->
+<tr>
+			<td>69</td>
+				<td>Rudra Mudra</td>
+			</tr>
+			<!--s mudras-->
+<tr>
+			<td>70</td>
+				<td>Sahasrara Mudra</td>
+			</tr>
+<tr>
+			<td>71</td>
+				<td>Samputa Mudra</td>
+			</tr>
+<tr>
+			<td>72</td>
+				<td>Shakata Mudra</td>
+			</tr>
+<tr>
+			<td>73</td>
+				<td>Shakti Mudra</td>
+			</tr>
+<tr>
+			<td>74</td>
+				<td>Shankha Mudra</td>
+			</tr>
+<tr>
+			<td>75</td>
+				<td>Shankhavarta Mudra</td>
+			</tr>
+<tr>
+			<td>76</td>
+				<td>Shanmukha Mudra</td>
+			</tr>
+			<tr>
+			<td>77</td>
+				<td>Shukri Mudra</td>
+			</tr>
+<tr>
+			<td>78</td>
+				<td>Shunya Mudra</td>
+			</tr>
+<tr>
+			<td>79</td>
+				<td>Sumukha Mudra</td>
+			</tr>
+<tr>
+			<td>80</td>
+				<td>Surya Mudra</td>
+			</tr>
+<tr>
+			<td>81</td>
+				<td>Svadhisthana Chakr Mudra</td>
+			</tr>
+			<tr>
+			<td>82</td>
+				<td>Uttarabodhi Mudra I</td>
+			</tr><tr>
+			<td>83</td>
+				<td>Uttarabodhi Mudra II</td>
+			</tr><tr>
+			<td>84</td>
+				<td>Vajra Mudra</td>
+			</tr><tr>
+			<td>85</td>
+				<td>Vajrapradana Mudra</td>
+			</tr><tr>
+			<td>86</td>
+				<td>Varaha Mudra</td>
+			</tr><tr>
+			<td>87</td>
+				<td>Varuna Mudra I</td>
+			</tr><tr>
+			<td>88</td>
+				<td>Vayu Mudra II </td>
+			</tr><tr>
+				<tr>
+			<td>89</td>
+				<td>Vayu Mudra III</td>
+			</tr><tr>
+	
+			<td>90</td>
+				<td>Vishuddha Chakra Mudra</td>
+			</tr><tr>
+			<td>91</td>
+				<td>Vistara Mudra</td>
+			</tr><tr>
+			<td>92</td>
+				<td>Vyana Mudra</td>
+			</tr><tr>
+			<td>93</td>
+				<td>Vishnu Mudra</td>
+			</tr><tr>
+			<td>94</td>
+				<td>Yoni Mudra I</td>
+			</tr><tr>
+			<td>95</td>
+				<td>Yoni Mudra II</td>
+			</tr><tr>
+			<td>96</td>
+				<td>Yoni Mudra III</td>
+			</tr>	
+		</tbody>
+	</table>
+</div>
+
+<br><br>
+
+<div class="container" md-10 mt-10 id="mudras">
+	<div id="abhaya1">
+	<h1>Abhaya Mudra I</h1>
+	<img src="data:image/jpeg;base64,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" alt="Abhaya 1">
+	<p><b>Description</b><br>Abhaya Mudra I is a single-hand gesture (asamyukta hasta) 
+common to the yoga tradition. It is referred to as the “seal of fearlessness” 
+and is used in Hinduism, Indian Tantrism, and Buddhism. The mudra is 
+most commonly employed as a gesture of protection and pacification in 
+ritual practice and in iconographic depictions of deities, sages, and saints. It 
+is used to dispel fear and to evoke the direct experience of Openness.1
+ It also 
+represents the Five Elements2
+ resting in their natural relationship, with the 
+center of the palm as the bindu, or central point of focus</p>
+<br>
+<p><b>Technique</b><br> Raise the right hand in front of your right shoulder, palm facing 
+forward, relaxed, with the fingers extending upward. Keep your shoulder 
+relaxed, elbow bent, and hand still. Feel the center of your palm warm, as if 
+radiating a soft light. Rest the left hand in your lap with the palm up, or let 
+it hang gently at your side during standing or walking practice</p>
+<br>
+<p><b>Application</b><br>Use Abhaya Mudra I during seated meditation and self-reflection 
+when fear and ego clinging arise. Hold the mudra for 5 to 45 minutes. 
+Imagine that whatever causes you fear is looking directly into the center of 
+your upheld palm. Feel that your courage and openness are unwavering, and 
+fear is subdued by the power of your unswerving acceptance. Through regular 
+practice in this way, fear is subliminated into fearlessness</p>
+<br>
+<p><b>Benefits</b><br>Calms the mind, reduces anxiety and inner conflict, removes 
+attachment and aversion to thoughts, emotions, and sensations.
+</p></div>
+<br>
+<hr><br>
+<div id="abhaya2">
+	<h1>Abhaya Mudra II</h1>
+	<p><b>Description</b><br>Abhaya Mudra II is a joint-hand gesture (samyukta hasta) used 
+in the yoga tradition. It is common to the Yoga Tattva Mudra Vijnana form 
+where it is used to dispel fear and evoke courage</p>
+<br>
+<p><b>Technique</b><br>Join the tips of the thumb and index finger on each hand. Hold 
+the hands palms facing forward at shoulder height.</p>
+<br>
+<p><b>Application</b><br> Use Abhaya Mudra II during seated meditation or self-reflection 
+when you want to dispel fear and cut through ego clinging. Hold the mudra 
+for 5 to 45 minutes, making sure to keep the shoulders relaxed. Feel that your 
+courage and openness are unwavering. Fear is subdued by the power of your 
+unswerving acceptance</p>
+<p><b>Benefits</b><br> Calms the mind, reduces anxiety and inner conflict, removes 
+attachment and aversion to thoughts, emotions, and sensations, bringing one 
+into harmony with the way things naturally are
+</p></div>
+<br><hr><br>
+<div id="abhaya3">
+	<h1>Abhaya Hrdaya Mudra</h1>
+	<p><b>Description</b><br>Abhaya Hrdaya Mudra is a joint-hand gesture (samyukta hasta) 
+used in the yoga tradition as a powerful energy conductor and mind seal. 
+It is a lesser-known Tantric gesture that, according to oral tradition, was 
+traditionally kept secret among initiates. The mudra is known for its unique 
+ability to rejuvenate one’s vital force and reduce fragmented thoughts and 
+scattered energy</p>
+<br>
+<p><b>Technique</b><br>Raise the hands in front of the chest, palms facing center. Cross 
+the wrists with the backs of the hands touching, right hand closest to your 
+body, palms facing to the sides. Firmly interlock the index, middle, and little 
+fingers, while connecting the tips of the thumb and ring finger on both hands, 
+forming two rings</p>
+<br>
+<p><b>Application </b><br>In a seated meditation posture, hold the mudra firmly to your 
+chest and pull down gently rooting it into the base of your sternum. Breathe 
+naturally and hold for 5 to 45 minutes.</p>
+<br>
+<p><b>Benefits</b><br> Nourishes the heart and lungs, improves digestion, imparts a powerful 
+sense of vitality and calm, can help reduce nightmares and reestablish basic 
+sanity to a troubled mind. Use of this mudra is especially helpful during times of 
+exhaustion, healing from debilitating illness, or regaining strength after surgery. 
+Energetically, it allows heat to descend from the head through the chest down 
+into the belly, thus regulating the healthy function of all the internal organs</p>
+<br>
+<i><b>Note</b>This mudra may be performed lying down (especially in the case of recuperation after 
+surgery or serious illness), but it is important that the upper body be slightly elevated so that 
+the head and chest are higher than the belly. This takes pressure off the heart and regulates 
+blood pressure</i>
+</div>
+<br>
+<hr>
+<br>
+<div id="Adhomukha">
+	<h1>Adhomukha Mudra</h1>
+	<img src="">
+	<p><b>Description</b><br>Adhomukha Mudra is a joint-hand gesture (samyukta hasta) used 
+in the yoga tradition for healing, especially cancer. It is part of the Yoga Tattva 
+Mudra Vijnana form, and is one of the traditional thirty-two Gayatri Mudras, 
+specifically the tenth gesture in the sub-set of twenty-four mudras practiced 
+before meditation or recitation of the Gayatri Mantra</p>
+<br>
+<p><b>Technique</b><br> Join the tips of the thumbs together with the palms facing 
+downward. Point all the other fingers down while resting the tops of the 
+fingers and first knuckles together. Keep all fingers straight and relaxed. Hold 
+the mudra at the level of the waist, thumbs just in front of the navel</p>
+<br>
+<p><b>Application</b><br>n In a comfortable meditation posture, hold the mudra for 2 to 
+5 minutes while focusing on the navel and evoking the sense of warmth and 
+rootedness. For healing, especially serious illness such as cancer, hold the 
+mudra for 20 to 45 minutes, two to three sessions per day is ideal</p>
+<br>
+<p><b>Benefits </b><br>Activates the digestive fire, increases transformative and self-healing 
+powers, reduces toxicity, readies the mind for meditation, prayer, or recitation 
+of mantras.</p>
+<br>
+<i><b>Note</b> For women practicing during their menstrual cycle, move the position of the mudra to 
+the heart center, with the tips of the thumbs lightly touching the base of the sternum</i>
+<br>
+<hr>
+<br>
+</div>
+<div id="Agni">
+	<h1>Agni Mudra</h1>
+	<img src="">
+	<p><b>Description</b><br>Agni Mudra is a joint-hand gesture (samyukta hasta) used by 
+performing artists. It is found in the traditional set of sixteen Deva Hastas, 
+denoting Hindu gods and goddesses as described in the Abhinaya Darpana. 
+It indicates the form and character of the Hindu deity Agni.</p>
+<br>
+<p><b>Technique</b><br>Assume Kangula Mudra (p.104) with your left hand, and Tripataka 
+Mudra (p.253) with your right, held at shoulder height</p>
+<br>
+<p><b>Application</b><br>It is used to indicate Agni, the Hindu god of fire<br>
+</p>
+<br>
+<i><b>Note</b> There are several combinations of mudras used to express the various traits and emblems 
+of Agni Deva. The most common form is indicated here</i>
+
+</div>
+<br>
+<hr>
+<br>
+
+<div id="Ajna">
+	<h1>Ajna Chakra Mudra</h1>
+	<p><b>Description</b><br>Ajna Chakra Mudra is a joint-hand gesture (samyukta hasta) used 
+in Indian Tantric Yoga and Japanese martial arts to open the “third eye.” It 
+employs the relationship of Fire (thumb) and Air (index) Elements to focus 
+attention and intensify energy in an effort to awaken inner vision.</p>
+<br>
+<p><b>Technique</b><br> Extend the left index finger and curl the other fingers into the 
+palm. Use the left thumb to cover the nails of the other three fingers. Grasp 
+the extended index finger with your right hand, using your right thumb to 
+press gently on the outer corner of the nail bed of the left index finger</p>
+<br>
+<p><b>Application</b><br>In a seated meditation posture, hold the mudra in your lap and 
+focus lightly on the space between your eyebrows. For increased intensity, 
+bring the mudra a few inches in front of your forehead, pointing the tip of the 
+extended index finger toward the third eye center. Hold for 1 to 2 minutes, 
+then lower the mudra back into the lap</p>
+<br>
+<p><b>Benefits</b><br>Awakens the Ajna Chakra, opens spiritual vision, stimulates the 
+pituitary gland, clarifies the mind, improves concentration and intuition</p>
+<br>
+<i><b>Caution</b> Do not hold the mudra in front of the eyebrow center for more than 2 minutes. This 
+is a powerful mudra that is best learned under the guidance of a competent teacher. If used 
+inappropriately, it can generate excess heat in the head that can be harmful to the brain, eyes, 
+and nervous system</i>
+
+</div>
+<br><hr><br>
+
+<div id="Alapadma">
+	<h1>Alapadma Mudra</h1>
+	<p><b> Description</b>Alapadma Mudra is the twentieth hand gesture of the twentyeight single-hand mudras (asamyukta hastas) as described in the Abhinaya 
+Darpana. It is noted in the Natya Shastra as Ala-pallava. According to 
+mythology, the mudra originates from Shri Krishna, referring to the time 
+when he was a young child stealing butter and milk. The associated sage is 
+Vasanta, race is Gandharva, color is dusky, and deity is Surya, the sun</p>
+<br>
+<p><b>Technique</b><br>Turn your palm to face upward, stretching the fingers apart. Bring 
+your little finger toward your palm and fan out the rest of the fingers evenly 
+away from the little finger, with the thumb extended 90 degrees to the index 
+finger</p>
+<br>
+<p><b>Application</b><br>Primarily used by performing artists to create context and express 
+emotional states or specific actions. Viniyoga: Vikacha-abja (“a fully bloomed 
+lotus”); Kapittha-diphala (“wood apple”); Avarthaka (“circular movement”); 
+Kucha (“breast”); Viraha (“yearning to the beloved”); Mukura (“mirror”); 
+Poorna-chandra (“full moon”); Saundarya-bhavana (“beautiful form”); 
+Dhamilla (“hair-knot”); Chandra-shala (“moon pavilion”); Grama (“village”); 
+Udru-thakopa (“great anger”); Tataka (“pond” or “lake”); Shakata (“cart”); 
+Chakravaka (“type of bird”); Kala-kalarava (“murmuring sound”); Slagana
+(“praise”). Additional usages are fresh ghee, sweets, head, crown, braided hair, 
+cluster of flowers, ball, dancing, fort, palace, and sweetness</p>
+<br>
+<p><b>Benefits</b><br>Stimulates all five fingers and therefore activates all Five Elements 
+in the body, improves circulation and benefits the heart, boosts vitality, and 
+energizes body and mind</p></div>
+<br>
+	<hr><br>
+
+
+
+<div id="Anahata Chakra">
+	<h1>Anahata Chakra Mudra</h1>
+	<p><b>Description</b><br> Anahata Mudra is a complex joint-hand gesture (samyukta hasta) 
+used in Tantric Yoga and Japanese martial arts to open the heart center. The 
+mudra beautifully weaves the Five Elements into a yantra, a visual symbol 
+representing the essence of potentiality. The Elements of Fire (thumb), Air 
+(index), and Water (little finger) express outwardly, while Ether (middle) and 
+Earth (ring) interlock in the middle of the mudra. Anahata means “un-struck 
+sound,” and this mudra is a gateway into the silent openness of the human 
+heart </p>
+<br>
+<p><b>Technique</b><br>Place the right ring finger in the web of the index/middle of the 
+left hand. Place the left ring finger in the web of the index/middle of the right 
+hand. Curl the middle fingers downward locking the ring fingers into place. 
+Touch the tips of the thumbs, index, and little fingers together and extend 
+them upward</p>
+<br>
+<p><b>Application</b><br> In a comfortable seated position, hold the mudra in front of the 
+chest while gazing inwardly at the heart center (at the base of the sternum). 
+Relax the chest, shoulders, and belly. Rest in stillness for 5 to 45 minutes.</p>
+<br>
+<p><b>Benefits</b><br> Improves the health of the heart, lungs, and breasts, regulates 
+breathing, expands feelings of compassion and love, increases healing abilities</p>
+<br>
+	
+
+</div>
+<br><hr><br>
+
+<div id="Angaraka">
+	<h1>Angaraka Mudra</h1>
+	<p><b> </p>
+<br>
+<p><b>Technique</b><br></p>
+<br>
+<p><b>Application</b><br></p>
+<br>
+<p><b>Benefits</b><br></p>
+<br>
+	
+
+</div>
+
+
+<div id="Ajnachakra">
+	<h1>Ajna Chakra Mudra</h1>
+	<p><b> </p>
+<br>
+<p><b>Technique</b><br></p>
+<br>
+<p><b>Application</b><br></p>
+<br>
+<p><b>Benefits</b><br></p>
+<br>
+	
+
+</div>
+
+
+<div id="Ajnachakra">
+	<h1>Ajna Chakra Mudra</h1>
+	<p><b> </p>
+<br>
+<p><b>Technique</b><br></p>
+<br>
+<p><b>Application</b><br></p>
+<br>
+<p><b>Benefits</b><br></p>
+<br>
+	
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
